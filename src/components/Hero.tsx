@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           />
         </div>
         
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
+        <h1 className="text-2xl md:text-6xl font-bold mb-4 animate-fade-in">
           Hi, I'm Abiton
         </h1>
         <p className="text-2xl md:text-3xl mb-4 text-teal-200">

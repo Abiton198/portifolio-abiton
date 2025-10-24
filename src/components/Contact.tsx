@@ -31,15 +31,15 @@ const Contact: React.FC = () => {
               </div>
               <div className="flex items-center gap-3 text-gray-700">
                 <Mail className="text-teal-600" size={24} />
-                <a href="mailto:your.email@example.com" className="hover:text-teal-600">your.email@example.com</a>
+                <a href="mailto:abitonpadera@gmail.com" className="hover:text-teal-600">abitonpadera@gmail.com</a>
               </div>
               <div className="flex items-center gap-3 text-gray-700">
                 <Github className="text-teal-600" size={24} />
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-teal-600">github.com/yourusername</a>
+                <a href="https://github.com/Abiton198" target="_blank" rel="noopener noreferrer" className="hover:text-teal-600">github.com/Abiton198</a>
               </div>
               <div className="flex items-center gap-3 text-gray-700">
                 <Linkedin className="text-teal-600" size={24} />
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-teal-600">linkedin.com/in/yourprofile</a>
+                <a href="https://www.linkedin.com/in/abiton-padera-232a6a9a/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-600">linkedin.com/in/abiton-padera</a>
               </div>
             </div>
           </div>
