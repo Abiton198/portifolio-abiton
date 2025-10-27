@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
         <div className="mb-8">
           <img 
-            src="/abiton.jpg"
+            src="/abiton2.jpeg"
             alt="Abiton Profile"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white/30 shadow-2xl mb-6"
           />
@@ -47,13 +47,13 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="flex justify-center gap-6">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300 transition-colors">
+          <a href="https://github.com/Abiton198" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300 transition-colors">
             <Github size={28} />
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300 transition-colors">
+          <a href="https://www.linkedin.com/in/abiton-padera-232a6a9a/details/certifications/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300 transition-colors">
             <Linkedin size={28} />
           </a>
-          <a href="mailto:your.email@example.com" className="hover:text-teal-300 transition-colors">
+          <a href="mailto:abitonpadera@gmail.com" className="hover:text-teal-300 transition-colors">
             <Mail size={28} />
           </a>
         </div>

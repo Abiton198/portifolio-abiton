@@ -10,26 +10,26 @@ export const courses: Course[] = [
   {
     id: "ml-stanford",
     title: "Machine Learning",
-    institution: "StanfordOnline",
+    institution: "Emperial College London",
     platform: "Coursera",
     type: "formal"
   },
   {
     id: "dl-michigan",
-    title: "Deep Learning Specialization",
+    title: "Programming for Everyone (Python)",
     institution: "University of Michigan",
     type: "formal"
   },
   {
     id: "nlp-imperial",
-    title: "Natural Language Processing with PyTorch",
-    institution: "Imperial College London",
+    title: "Natural Language Processing Specialization",
+    institution: "DeepLearning AI, Stanford",
     type: "formal"
   },
   {
     id: "ds-ibm",
-    title: "Data Science Foundations",
-    institution: "IBM",
+    title: "Deep Learning Specialization",
+    institution: "Deep Learning AI, Stanford",
     type: "formal"
   },
   {
@@ -54,6 +54,12 @@ export const courses: Course[] = [
     id: "nlp-foundations",
     title: "NLP Foundations (TensorFlow, PyTorch, Transformers)",
     institution: "Self-Paced Learning",
+    type: "self-paced"
+  },
+  {
+    id: "web-dev",
+    title: "Web Development",
+    institution: "Scrimba",
     type: "self-paced"
   }
 ];
