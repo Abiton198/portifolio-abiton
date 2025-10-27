@@ -9,8 +9,8 @@ export interface Course {
 export const courses: Course[] = [
   {
     id: "ml-stanford",
-    title: "Machine Learning",
-    institution: "Emperial College London",
+    title: "Machine Learning Specialization",
+    institution: "Stanford",
     platform: "Coursera",
     type: "formal"
   },
@@ -18,24 +18,35 @@ export const courses: Course[] = [
     id: "dl-michigan",
     title: "Programming for Everyone (Python)",
     institution: "University of Michigan",
+    platform: "Coursera",
     type: "formal"
   },
   {
     id: "nlp-imperial",
     title: "Natural Language Processing Specialization",
     institution: "DeepLearning AI, Stanford",
+    platform: "Coursera",
     type: "formal"
   },
   {
     id: "ds-ibm",
     title: "Deep Learning Specialization",
     institution: "Deep Learning AI, Stanford",
+    platform: "Coursera",
     type: "formal"
   },
   {
     id: "ai-everyone",
     title: "AI for Everyone",
     institution: "DeepLearning.AI",
+    platform: "Coursera",
+    type: "formal"
+  },
+  {
+    id: "ai-everyone",
+    title: "Mathematics for Machine Learning Specialization",
+    institution: "Emerial College London",
+    platform: "Coursera",
     type: "formal"
   },
   {
