@@ -39,7 +39,7 @@ Quick overview of tools and technologies I actually use in production.
 
 ### 📞 Contact / Call to Action
 
-Clear contact section so people can reach out for work, collaboration, or questions.
+Can contact or reach out for work, collaboration, or questions.
 
 ### 📱 Fully Responsive
 
@@ -56,10 +56,9 @@ Lightweight front-end bundle and static hosting for fast load times.
 **Frontend**
 
 * React (component-driven UI)
-* [If you used Vite or CRA, keep one:]
 
   * Vite for fast local dev and optimized builds
-  * or Create React App (CRA)
+ 
 * Tailwind CSS (utility-first responsive styling)
 
 **Hosting / Deployment**
@@ -71,8 +70,6 @@ Lightweight front-end bundle and static hosting for fast load times.
 * Modern ES modules
 * Mobile-first responsive layout
 * Reusable, self-contained components
-
-> If any of these differ in your codebase (Next.js, Framer Motion animations, etc.), update this list to match.
 
 ---
 
@@ -93,11 +90,6 @@ root
 ├─ postcss.config.js     # PostCSS pipeline for Tailwind
 └─ vite.config.js        # (or similar build config)
 ```
-
-Small note:
-
-* If you’re using CRA, you’ll have `index.js` and no `vite.config.js`.
-* If you’re using Next.js, this section changes (pages/app, etc.). Adjust to match your repo before committing.
 
 ---
 
@@ -124,7 +116,7 @@ These steps assume Node.js and npm are installed.
    npm run dev
    ```
 
-   * This spins up a local development server (typically on `http://localhost:5173` for Vite or `http://localhost:3000` for CRA).
+   * This spins up a local development server (typically on `http://localhost:5173` )for Vite 
    * Saves hot-reload automatically when you edit files in `src/`.
 
 4. **Build for production**
@@ -133,7 +125,7 @@ These steps assume Node.js and npm are installed.
    npm run build
    ```
 
-   * Outputs an optimized production build to `/dist` (or `/build` for CRA).
+   * Outputs an optimized production build to `/dist`.
    * Minified, tree-shaken, ready to deploy.
 
 5. **Preview production build locally (optional, Vite only)**
@@ -157,7 +149,7 @@ Typical Netlify setup:
 * Set the publish directory:
 
   * `dist` (Vite)
-  * or `build` (CRA)
+ 
 * Push to `main` → Netlify auto-builds and redeploys.
 
 
@@ -176,8 +168,8 @@ If you see an issue:
 ## 📬 Contact
 
 * 📧 Email: abitonp@gmail.com
-* 💼 LinkedIn: `https://www.linkedin.com/in/abiton-padera-232a6a9a/`
-* 🌍 Live Portfolio: `https://portfolio-abiton.netlify.app/`
+* 💼 LinkedIn: https://www.linkedin.com/in/abiton-padera-232a6a9a/
+* 🌍 Live Portfolio: https://portfolio-abiton.netlify.app/
 
 If you’d like to collaborate, hire me, or ask about any of the projects on this site — reach out. I’m open to freelance, contract, or full-time work.
 
