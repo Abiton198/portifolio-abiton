@@ -20,10 +20,26 @@ const About: React.FC = () => {
               </div>
               <ul className="list-disc list-inside space-y-2 text-sm">
                 <li>Focus on Arabic morphology, syntax, semantics, and sociolinguistics</li>
-                <li>Bridging Studies: "Computer Languages, Web Development, Machine Learning, Deep Learning, Computational Lunguistics related studies from various online univerities (Stanford, Michigan, Emperial London, etc)"</li>
+                <li>Bridging Studies: "Computer Languages, Web Development, Machine Learning, Deep Learning, Computational Lunguistics related studies from various online universities (Stanford, Michigan, Emperial London, etc)"</li>
               </ul>
             </div>
           </div>
+
+           <div className="bg-white rounded-xl shadow-lg p-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <Target className="text-orange-500" size={32} />
+              Current Activity
+            </h3>
+            <div className="space-y-3 text-gray-700 text-sm">
+              <p className="font-semibold text-teal-600">Voluntary Arabic Teaching at CLD Institute, UK</p>
+              <ul className="list-disc list-inside space-y-2 ">
+                <li>General class lessons for Arabic Medina Book Series via Zoom</li>
+                <li>Recording of Youtube Arabic Medina Book series for the institution</li>
+                <li>Preparation of Arabic Kahoot Assesments for students</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
           <div className="bg-white rounded-xl shadow-lg p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
@@ -67,7 +83,6 @@ const About: React.FC = () => {
             <span className="bg-orange-100 text-orange-800 px-4 py-2 rounded-lg font-medium">Shona — Native</span>
           </div>
         </div>
-      </div>
     </section>
   );
 };

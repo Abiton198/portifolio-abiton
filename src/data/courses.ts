@@ -45,7 +45,7 @@ export const courses: Course[] = [
   {
     id: "ai-everyone",
     title: "Mathematics for Machine Learning Specialization",
-    institution: "Emerial College London",
+    institution: "Emperial College London",
     platform: "Coursera",
     type: "formal"
   },
