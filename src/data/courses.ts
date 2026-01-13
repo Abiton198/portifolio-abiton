@@ -43,7 +43,7 @@ export const courses: Course[] = [
     type: "formal"
   },
   {
-    id: "ai-everyone",
+    id: "ai-everyon",
     title: "Mathematics for Machine Learning Specialization",
     institution: "Emperial College London",
     platform: "Coursera",

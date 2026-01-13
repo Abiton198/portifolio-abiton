@@ -1,12 +1,16 @@
 import React from 'react';
+import { useState } from 'react';
 import { Project } from '../data/projects';
-import { ExternalLink, Github } from 'lucide-react';
+import { ChevronDown, ChevronUp, ExternalLink, Github } from 'lucide-react';
+
 
 interface ProjectCardProps {
   project: Project;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
       <div className="relative h-48 overflow-hidden">
@@ -16,20 +20,38 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="p-6">
-        <p className="text-xs text-teal-600 font-medium mb-2">{project.role}</p>
-        <h3 className="text-xl font-bold text-gray-900 mb-3">{project.title}</h3>
-        <p className="text-gray-600 text-sm mb-4 line-clamp-3">{project.description}</p>
+     <div className="p-6">
+    <p className="text-xs text-teal-600 font-medium mb-2">{project.role}</p>
+    <h3 className="text-xl font-bold text-gray-900 mb-3">{project.title}</h3>
+    
+            <div className="relative">
+              <p className={`text-gray-600 text-sm transition-all duration-300 ${!isExpanded ? "line-clamp-3" : ""}`}>
+                {project.description}
+              </p>
+              
+              {/* Clickable Toggle */}
+              <button 
+                onClick={() => setIsExpanded(!isExpanded)}
+                className="text-blue-600 text-xs font-bold mt-2 flex items-center gap-1 hover:underline"
+              >
+                {isExpanded ? (
+                  <>Read Less <ChevronUp size={14} /></>
+                ) : (
+                  <>Read More <ChevronDown size={14} /></>
+                )}
+              </button>
+            </div>
+            
+            <div className="flex flex-wrap gap-2 mt-4 mb-4">
+              {project.tech.map((tech, idx) => (
+                <span key={idx} className="text-xs bg-blue-50 text-blue-700 px-3 py-1 rounded-full">
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
         
-        <div className="flex flex-wrap gap-2 mb-4">
-          {project.tech.map((tech, idx) => (
-            <span key={idx} className="text-xs bg-blue-50 text-blue-700 px-3 py-1 rounded-full">
-              {tech}
-            </span>
-          ))}
-        </div>
-        
-        <div className="flex gap-3">
+        <div className="flex gap-3 px-6 pb-6">
           {project.liveLink && (
             <a 
               href={project.liveLink}
@@ -52,7 +74,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           </a>
         </div>
       </div>
-    </div>
   );
 };
 

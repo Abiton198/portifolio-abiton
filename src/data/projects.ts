@@ -20,15 +20,15 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Abiton198/refcentral",
     role: "Developer & Referee | Eastern Province Rugby Union"
   },
-  {
-    id: "exam-assistant",
-    title: "Exam & Study Assistant Application",
-    description: "A student learning platform for automated quiz generation, grading, and performance tracking. Plans to integrate NLP models for question-answer interaction in Arabic and English.",
-    tech: ["React", "Firebase", "Tailwind", "Netlify"],
-    image: "/eduapp.png",
-    liveLink: "https://eduplanet-cat-online.netlify.app/",
-    githubLink: "https://github.com/Abiton198/eduplanet_online_cat",
-    role: "Developer & Computer Teacher | Private Secondary School"
+ {
+    id: "care-academy-portal",
+    title: "Care Academy: British Curriculum Portal",
+    description: "A comprehensive hybrid learning ecosystem supporting both campus and virtual environments. Features specialized secure dashboards for Principals, Teachers, and Parents. Includes student portal, timetable scheduler, links engine for British curriculum-aligned. Future work includes real-time performance tracking with NLP integration.",
+    tech: ["React", "TypeScript", "Firebase", "Tailwind", "Netlify", "PWA"],
+    image: "/care_academy.png",
+    liveLink: "https://care-academy.netlify.app/",
+    githubLink: "https://github.com/Abiton198/care_academy",
+    role: "Developer | Coding Educator"
   },
   {
     id: "nlp-experiments",
