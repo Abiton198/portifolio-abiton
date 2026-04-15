@@ -10,6 +10,16 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+    {
+  id: "agentic-ai-systems",
+  title: "Agentic AI & Intelligent Smart Learning Platform",
+  description: "Developed backend-driven AI Smart Learning systems using agentic architectures where LLMs dynamically decide actions through tool-calling. Built exam study agents, NLP-powered applications, and API-integrated systems with persistent memory, RAG pipelines, and automated workflows. Focused on real-world use cases such as education, data analysis, and intelligent assistants.",
+  tech: ["Python", "Flask", "React", "Node.js", "SQLite", "FAISS", "TensorFlow"],
+  image: "/ai_exam.png",
+  liveLink: "https://abitonp.pythonanywhere.com/",
+  githubLink: "https://github.com/Abiton198/chatbot-backend-educat",
+  role: "Independent Developer"
+},
   {
     id: "rugby-referee",
     title: "Rugby Referee Management System",
@@ -38,5 +48,6 @@ export const projects: Project[] = [
     image: "/projects.png",
     githubLink: "https://github.com/Abiton198",
     role: "Independent Developer"
-  }
+  },
+
 ];

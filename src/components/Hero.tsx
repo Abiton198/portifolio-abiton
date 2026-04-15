@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
           Aspiring NLP Researcher & Full Stack Developer
         </p>
         <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto mb-8">
-          Building technology that connects language, learning, and sports. Currently pursuing a BA in Arabic Language & Linguistics while developing advanced skills in Machine Learning and NLP.
+          Building technology that connects language, learning, and sports. Holder of a BA in Arabic Language & Linguistics dveloped advanced skills in Machine Learning and NLP over the past 4 years.
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mb-8">

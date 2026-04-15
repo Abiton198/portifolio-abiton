@@ -16,7 +16,7 @@ const About: React.FC = () => {
             <div className="space-y-4 text-gray-700">
               <div>
                 <h4 className="font-semibold text-lg">Bachelor of Arts in Arabic Language Studies</h4>
-                <p className="text-sm text-gray-600">International Open University, Gambia — Expected completion: Feb 2026</p>
+                <p className="text-sm text-gray-600">International Open University, Gambia </p>
               </div>
               <ul className="list-disc list-inside space-y-2 text-sm">
                 <li>Focus on Arabic morphology, syntax, semantics, and sociolinguistics</li>
@@ -42,19 +42,33 @@ const About: React.FC = () => {
         </div>
 
           <div className="bg-white rounded-xl shadow-lg p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
-              <Target className="text-orange-500" size={32} />
-              Future Goals
-            </h3>
-            <div className="space-y-3 text-gray-700 text-sm">
-              <p className="font-semibold text-teal-600">🎯 Intended Program: M.Sc. in Natural Language Processing, MBZUAI (2026 Intake)</p>
-              <ul className="list-disc list-inside space-y-2">
-                <li>Advance research in Arabic NLP and AI for Sports Analytics</li>
-                <li>Pursue a PhD in NLP, focusing on predictive and assistive language models for real-time decision-making in sports</li>
-                <li>Contribute to open-source Arabic NLP datasets and tools that empower innovation in the MENA region</li>
-              </ul>
-            </div>
-          </div>
+  <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+    <Target className="text-orange-500" size={32} />
+    Future Goals
+  </h3>
+  <div className="space-y-3 text-gray-700 text-sm">
+    <p className="font-semibold text-teal-600">
+      🎯 Intended Program: M.Sc. AI (Natural Language Processing)
+    </p>
+    <ul className="list-disc list-inside space-y-2">
+      <li>
+        Advance research in Arabic NLP and build intelligent AI systems for real-world applications
+      </li>
+      <li>
+        Design and develop <strong>agentic AI systems</strong> that use tool-calling, memory, and reasoning to solve complex problems autonomously
+      </li>
+      <li>
+        Apply AI and NLP in domains such as education and sports analytics for predictive and assistive decision-making
+      </li>
+      <li>
+        Pursue a PhD in NLP, focusing on adaptive and context-aware language models
+      </li>
+      <li>
+        Contribute to open-source NLP and AI agent frameworks, especially for underrepresented languages and regions
+      </li>
+    </ul>
+  </div>
+</div>
         </div>
 
         <div className="mt-12 grid md:grid-cols-3 gap-6">
